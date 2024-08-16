@@ -15,29 +15,20 @@ const questions = [
   },
   {
     type: 'input',
-    name: 'installation',
-    message: 'Enter the installation instructions:',
+    name: 'userstory',
+    message: 'Enter your user stories:',
   },
   {
     type: 'input',
-    name: 'usage',
-    message: 'Enter usage instructions:',
+    name: 'instructions',
+    message: 'Enter start instructions:',
   },
   {
     type: 'input',
-    name: 'contributing',
-    message: 'Enter contribution guidelines:',
+    name: 'contributers',
+    message: 'Enter the contributors to this project:',
   },
-  {
-    type: 'input',
-    name: 'tests',
-    message: 'Enter test instructions:',
-  },
-  {
-    type: 'input',
-    name: 'license',
-    message: 'Enter the license for your project:',
-  },
+
 ];
 
 // Function to write README file
@@ -56,20 +47,15 @@ function init() {
 ## Description
 ${answers.description}
 
-## Installation
-${answers.installation}
+## User Story
+${answers.userstory}
 
-## Usage
-${answers.usage}
+## Instructions
+${answers.instructions}
 
-## Contributing
-${answers.contributing}
+## Contributers
+${answers.contributers}
 
-## Tests
-${answers.tests}
-
-## License
-${answers.license}
 `;
       writeToFile('README.md', readmeContent);
     })

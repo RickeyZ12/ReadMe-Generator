@@ -1,20 +1,15 @@
 
-# ReadMe
+# Readme generator
 
 ## Description
-This project allows me to create a ReadMe with Node.js
+creates a readme file without having to type it all out
 
-## Installation
-to install, type in your command line "npm install inquirer"
+## User Story
+create a readme file 
 
-## Usage
-This helps create a Readme easier, so you can focus on your project more
+## Instructions
+open terminal and run "node index.js
 
-## Contributing
-none
+## Contributers
+Rickey Zheng
 
-## Tests
-to test, type in your command line "node index.js"
-
-## License
-MIT License
